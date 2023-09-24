@@ -1,0 +1,72 @@
+
+.navbar {
+    display: flex;
+    padding: 32px 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 84.952px;
+    height: 40px;
+}
+
+.location-cart {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+}
+
+.location {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: #EBE5F9;
+    border-radius: 6px;
+}
+
+.icon {
+    width: 22px;
+    height: 22px;
+}
+
+.cidade {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: #4B2995;
+}
+
+.cart {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: #F1E9C9;
+    border-radius: 6px;
+}
+
+
+
+  
+    
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
