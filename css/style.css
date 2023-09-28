@@ -1,72 +1,112 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+
+}
 
 .navbar {
-    display: flex;
-    padding: 32px 160px;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  padding: 32px 160px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-    width: 84.952px;
-    height: 40px;
+  width: 84.952px;
+  height: 40px;
 }
 
 .location-cart {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
 }
 
 .location {
-    display: flex;
-    padding: 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    background-color: #EBE5F9;
-    border-radius: 6px;
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: #EBE5F9;
+  border-radius: 6px;
 }
 
 .icon {
-    width: 22px;
-    height: 22px;
+  width: 22px;
+  height: 22px;
 }
 
 .cidade {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130%;
-    color: #4B2995;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  color: #4B2995;
 }
-
 .cart {
-    display: flex;
-    padding: 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    background-color: #F1E9C9;
-    border-radius: 6px;
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: #F1E9C9;
+  border-radius: 6px;
 }
 
-
-
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   
-    
+  width: 100%;
+  height: 544px;
 
+}
 
+.cafe {
+  display: flex;
+  width: 476px;
+  height: 360px;
+  
 
+}
 
+.title {
+  display: flex;
+  width: 588px;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  gap: 16px;
+}
 
+.text1 {
+  color: #272221;
 
+  font-family: Baloo 2;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+}
 
-    
-    
-    
-    
-    
-    
-    
+.text2 {
+  color: #403937;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  
+}
+
+.background {
+  filter: blur(80px);
+  
+  
+}
